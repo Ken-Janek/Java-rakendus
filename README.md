@@ -44,11 +44,14 @@ Kaitsmiseks vaata [KAITSMINE.md](KAITSMINE.md). Kontrollimise juhend on [KONTROL
 
 Kohalik ajalugu: `git log --oneline`. Commit salvestab muudatused kohalikult, push saadab need GitHubi.
 
-GitHubi repositooriumi pole selle projekti jaoks veel loodud. Enne esitamist loo GitHubis tühi repositoorium (ilma README-ta), seejärel asenda allolev aadress oma repositooriumi aadressiga:
+Projekti repositoorium: [Ken-Janek/Java-rakendus](https://github.com/Ken-Janek/Java-rakendus).
+
+Järgmiste muudatuste üleslaadimiseks:
 
 ```powershell
-git remote add origin https://github.com/KASUTAJA/REPOSITOOrium.git
+git add .
+git commit -m "Kirjelda tehtud muudatust"
 git push -u origin HEAD
 ```
 
-Esita õpetajale loodud repositooriumi link. AI aitas koodi ja õppematerjali koostada; kaitsmisel tuleb koodi ise mõista ja muuta.
+Esita õpetajale ülalolev repositooriumi link. AI aitas koodi ja õppematerjali koostada; kaitsmisel tuleb koodi ise mõista ja muuta.
