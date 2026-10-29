@@ -1,6 +1,6 @@
-# Väike raamatukogu
+# Raamatukogu
 
-Lihtne Java käsurearakendus raamatute ja ajakirjade laenutamiseks. Saab näha kõiki teavikuid, otsida pealkirja osa järgi, filtreerida saadaval teavikuid ning laenutada ja tagastada ID alusel. Tulemused kuvatakse pealkirja järjekorras.
+Java käsurearakendus raamatute ja ajakirjade laenutamiseks. Saab näha kõiki teavikuid, otsida pealkirja osa järgi, filtreerida saadaval teavikuid ning laenutada ja tagastada ID alusel. Tulemused kuvatakse pealkirja järjekorras.
 
 Andmed on ainult mälus: taaskäivitamisel taastuvad kolm näidisteavikut. Programm näitab laenutusaja pikkust; see ei arvuta tagastamiskuupäeva ega halda lugejaid.
 
