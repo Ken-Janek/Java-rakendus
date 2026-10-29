@@ -2,21 +2,13 @@
 
 Õpi mõte selgeks ja näita vastates vastavat koodikohta. Proovi muudatusi ise teha: kaitsmisel võib ülesanne olla teistsugune.
 
-## Minu lühitutvustus
-
-„Minu programm on väike raamatukogu. Kasutaja saab teavikuid otsida, laenutada ja tagastada. Raamatul ja ajakirjal on erinev laenutusaeg. Andmed on programmi töötamise ajal mälus. Jagasin koodi viieks klassiks, et menüü, andmete haldamine ja teavikute reeglid oleksid eraldi.”
-
-## Viis klassi ühe lausega
-
 - **Teavik:** ühised andmed ja reeglid, näiteks ID, pealkiri ja laenutamise olek.
 - **Raamat:** teavik, mida laenutatakse 21 päevaks.
 - **Ajakiri:** teavik, mida laenutatakse 7 päevaks.
 - **Raamatukogu:** hoiab teavikuid ning otsib ja sorteerib neid.
 - **Peaklass:** käivitab programmi, loeb sisendi ja kuvab menüü.
 
-## Kõige olulisemad vastused
-
-| Küsimus | Lihtne vastus ja näide |
+| Küsimus | Vastus ja näide |
 | --- | --- |
 | Kus on pärilus? | `Raamat extends Teavik`. Raamat pärib Teaviku avalikud meetodid; private välju kasutab ta ülemklassi meetodite kaudu. |
 | Kus on kapseldamine? | `private boolean laenutatud`. Seda saab muuta ainult kontrollivate laenuta ja tagasta meetoditega. |
@@ -35,7 +27,7 @@
 | Mida teeb super? | Kutsub alamklassi konstruktoris ülemklassi konstruktori, mis seab ID ja pealkirja. |
 | Commit ja push? | Commit salvestab kohaliku muudatuste versiooni. Push saadab kohalikud commit'id serverisse, näiteks GitHubi. |
 
-## Ühe laenutamise teekond
+## Laenutamise teekond
 
 1. Kasutaja valib `4` ja sisestab ID `1`.
 2. `Integer.parseInt` muudab teksti arvuks. Vigane arv jõuab catch-plokki.
@@ -50,7 +42,7 @@
 
 Otsing tagastab uue ArrayList-i, kuid selle sees on samad Teaviku objektid. Nimekirjast eemaldamine ei eemalda teavikut raamatukogust; teaviku laenutamine muudab sama objekti olekut.
 
-## Väikesed muudatused harjutamiseks
+## Muudatuste tegemine
 
 ### 1. Muuda raamatu laenutusaega
 
@@ -101,7 +93,3 @@ Lisa menüü teksti valik 6 ning switch-i enne default-haru `case "6": kuva(kogu
 - Eemaldan sorteerimise: HashMap-i tulemuste järjekord pole tagatud.
 - Asendan pealkirja võrdluses contains-i equals-iga: otsing nõuab kogu pealkirja vastavust.
 - Kirjutan `Teavik t = new Raamat(8, "Test");`: t.getLaenutusPaevad() annab 21.
-
-## 15 minuti harjutus
-
-Käivita programm, näita iga menüüvalikut, ava viis klassi ja seleta neid oma sõnadega. Seejärel lisa ise Dvd, kompileeri ning kontrolli tulemust. Lõpuks vasta tabeli küsimustele ilma spikrit vaatamata.
