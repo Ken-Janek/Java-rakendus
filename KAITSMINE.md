@@ -1,7 +1,3 @@
-# Kaitsmise spikker
-
-Õpi mõte selgeks ja näita vastates vastavat koodikohta. Proovi muudatusi ise teha: kaitsmisel võib ülesanne olla teistsugune.
-
 - **Teavik:** ühised andmed ja reeglid, näiteks ID, pealkiri ja laenutamise olek.
 - **Raamat:** teavik, mida laenutatakse 21 päevaks.
 - **Ajakiri:** teavik, mida laenutatakse 7 päevaks.
